@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="assets/css/restaurant.css" rel="stylesheet">
+ 
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <title>Pates en folie</title>
+</head>
+<body>
+    <nav class="d-md-block d-sm-none d-none">
+        <ul class="row list-inline">
+            <li class="offset-1 col-2"><a href="home.html">Home</a></li>
+            <li class="col-2"><a href="menu.html">Menu</a></li>
+            <li class="col-2"><a href="gallery.html">Gallery</a></li>
+            <li class="col-2"><a href="contactform.html">Contact</a></li>
+            <li class="col-2"><a href="restaurants.html">Restaurants</a></li>
+        </ul>
+    </nav>
+    <nav class="dropdown d-md-none d-sd-block d-block">
+        <button class="btn btn-default dropdown-toggle" type="button" id="Website Sections" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Website Sections
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu"  aria-labelledby="Website Sections">
+            <li class="dropdown-item"><a href="home.html">Home</a></li>
+            <li class="dropdown-item"><a href="menu.html">Menu</a></li>
+            <li class="dropdown-item"><a href="gallery.html">Gallery</a></li>
+            <li class="dropdown-item"><a href="contactform.html">Contact</a></li>
+            <li class="dropdown-item"><a href="restaurants.html">Restaurants</a></li>
+        </ul>
+    </nav>
+    <header class="jumbotron text-center">
+
+        <!-- Title -->
+        <h2 class="h2 pb-2"><p><strong>Pates en folie</strong></h2>
+      
+        <!--Carousel slideshow-->
+        <section class="carousel slide" data-ride="carousel">
+            <section class="carousel-inner">
+              <section class="carousel-item active">
+                  <img src="assets/img/jumbotron-image.jpg" class="d-block w-100" alt="superbe image du restaurant">
+              </section>
+              <section class="carousel-item">
+                <img src="assets/img/jumbotron-image-2.jpg" class="d-block w-100" alt="superbe image du restaurant">
+              </section>
+              <section class="carousel-item">
+                <img src="assets/img/jumbotron-image.jpg" class="d-block w-100" alt="superbe image du restaurant">
+              </section>
+            </section>
+        </section>
+    </header>
+    <main>
+            <article class="content">
+				
+                <h3>Spécialités fantaisistes</h3>
+                
+                
+                <ul class="list-group">
+               
+                
+               
+               
+                <!--<li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Tagliatelle al Nero di Seppia</strong> <em>(tomates fraîches, crevettes, langoustine, scampi, ail, échalotes, vin blanc, persil, olio di oliva)&nbsp;</em></p>
+                <span class="badge badge-primary badge-pill">19,60 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Tagliolini al prosciutto di parma e funghi</strong>
+                <span class="badge badge-primary badge-pill">17,50&nbsp;€</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Tortelloni dolce vita al tartufungo :</strong> <em>(pâtes farcies à la ricotta et truffes, servies avec une sauce champignons des bois, tomates, roquettes et crème tartufata)</em></p>
+                <span class="badge badge-primary badge-pill">18,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Agnolotti bicolore all nero di seppia e salmone</strong> <em>(pâtes noires et roses farcies aux crevettes, scampi, ricotta, sauce crème crevettes roses, échalotes, ciboulette)</em></p>
+                <span class="badge badge-primary badge-pill">15,60 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Melanzane alla Parmigiana :</strong> <em>(une de nos spécialités au four à base d’aubergine, jambon, mozzarella, sauce tomate et de parmesan, légèrement gratiné)</em></p>
+                <span class="badge badge-primary badge-pill">14,80 €</span></li>-->
+                
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <p><strong>Pates à l'encre de seiche sèches</strong> <em>(juste des pates noires sans sauce)&nbsp;</em></p>
+                        <span class="badge badge-primary badge-pill">10,00 €</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Pates à l'encre de seiche pas sèches</strong> <em>(des pates noire avec une sauce ou un peu d'eau)&nbsp;</em></p>
+                        <span class="badge badge-primary badge-pill">Entre 10,60 € et 11,60 €</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Pates seiches pas sèches à l'encre de seiche </strong> <em>(des pates noires avec comme sauce de l'encre de seiche)&nbsp;</em></p>
+                        <span class="badge badge-primary badge-pill">11,00 €</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Pates seiches pas sèches avec des pommes archiduchesses </strong> <em>(des pates noires en sauce avec des pommes de terre)&nbsp;</em></p>
+                        <span class="badge badge-primary badge-pill">15,00 €</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Pates seiches sèches seiches avec des pommes archiduchesses sèches sèches</strong> <em>( D: )&nbsp;</em></p>
+                        <span class="badge badge-primary badge-pill">14,99 €</span></li>
+                </ul>
+                
+                <h3>Pasta fresca</h3>
+                <ul class="list-group">
+ 
+                
+               
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Agnolotti Sardi</strong> <em>(spécialité Sarde, artisanal, truffé à la fois d’épinards, ricotta, pecorino et parmesan poêlés dans une légère sauce tomate)</em></p>
+                <span class="badge badge-primary badge-pill">15,20 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Tortelloni 3 formaggi</strong> <em>(tortellonis artisanaux farcis aux fromages parmesan et ricotta, aux herbes et servis dans une sauce mousseuse aux 3 fromages)</em></p>
+                <span class="badge badge-primary badge-pill">15,80 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Cannelloni Rossini</strong> <em>(les Cannellonis « maison» sont farcis aux 3 viandes, crème, sauce tomate et parmesan)</em></p>
+                <span class="badge badge-primary badge-pill">14,80 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Lasagne alla Bolognese</strong> <em>(des couches superposées de pâte, de viande hachée, jambon, tomates et crème, cuites au four, légèrement gratinée de parmesan et mozzarella)</em></p>
+                <span class="badge badge-primary badge-pill">14,80&nbsp;€</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Cannelloni con Ricotta e Spinaci</strong> <em>(farcis avec de la ricotta et épinards, sauce tomate crème)</em></p>
+                <span class="badge badge-primary badge-pill">14,80 €</span></li>
+                
+                
+                
+                
+                </ul>
+                
+                <h3>Pasta classica</h3>
+                <ul class="list-group">
+                
+                
+               
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Spaghetti Bolognèse</strong> <em>(nappés d’une duxelle de viande hachée et de petits légumes mixés à la tomate)</em></p>
+                <span class="badge badge-primary badge-pill">13,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Spaghetti alla carbonara</strong>  <em>(préparé avec une fine julienne de poitrine fumée et nappé d’un jaune d’oeuf et de crème fraîche)</em></p>
+                <span class="badge badge-primary badge-pill">14,60 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Spaghetti Follie’s</strong> <em>(préparé avec une fine julienne de jambon, tomates, champignons de Paris et gratiné au four dans une sauce à la crème)</em></p>
+                <span class="badge badge-primary badge-pill">15,40 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Spaghetti Vegetariani</strong>  <em>(tomates fraîches, courgettes, aubergines, ail, basilic, persil, olio di oliva)</em></p>
+                <span class="badge badge-primary badge-pill">15,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Tris ‘Pasta-Follie’s’</strong> <em>(3 sortes de pâtes servies avec 3 sortes de sauce: tomates, pesto et trois fromages)</em></p>
+                <span class="badge badge-primary badge-pill">17,80 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Linguine aux Palourdes</strong> <em>(avec des palourdes, ail, persil – nappé d’une sauce légèrement tomatée)</em></p>
+                <span class="badge badge-primary badge-pill">16,80 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Spaghetti Eleonora</strong> <em>(long spaghetti 3 couleurs, sauce tomates, ail, crevettes, scampi, calmars, poulpe, palourdes)</em></p>
+                <span class="badge badge-primary badge-pill">19,50 €</span></li>
+                
+                
+                
+                
+                </ul>
+                
+                <h3>Nos entrées</h3>
+                <ul class="list-group">
+                
+                
+               
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Antipasto italiane di legumi grigliati</strong> <em>(en plat)</em></p>
+                <span class="badge badge-primary badge-pill">16,00 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Fondus aux parmesan</strong></p>
+                <span class="badge badge-primary badge-pill">12,00 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Mozzarella di Buffala e pomodori</strong></p>
+                <span class="badge badge-primary badge-pill">13,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Carpaccio del mare</strong> <em>(thon, saumon, coquilles St-Jacques)</em></p>
+                <span class="badge badge-primary badge-pill">20,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Carpaccio de bœuf con Rucola</strong></p>
+                <span class="badge badge-primary badge-pill">17,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Antipasto di salumi italiani</strong></p>
+                <span class="badge badge-primary badge-pill">17,80 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Scampi fritti</strong></p>
+                <span class="badge badge-primary badge-pill">16,80 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Scampi à l’ail</strong></p>
+                <span class="badge badge-primary badge-pill">16,80 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Scampi Follie’s</strong></p>
+                <span class="badge badge-primary badge-pill">18,80 €</span></li>
+                
+                
+                
+                
+                </ul>
+                
+                <h3>Viande de veau</h3>
+                <ul class="list-group">
+                
+                
+               
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Scaloppina alla Milanese nature</strong> <em>(escalope de veau panée)</em></p>
+                <span class="badge badge-primary badge-pill">17,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Supplément sauce&nbsp;: tomate, pizzaïola</strong></p>
+                <span class="badge badge-primary badge-pill">3,00 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Escalope estragon</strong></p>
+                <span class="badge badge-primary badge-pill">17,80 €</span></li>
+            
+                
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Piccata al Limone</strong> <em>(veau au vin blanc et champignons sautés au citron)</em></p>
+                <span class="badge badge-primary badge-pill">17,80 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Escalope Follie’s</strong> <em>(veau, tomates, champignons, crème)</em></p>
+                <span class="badge badge-primary badge-pill">18,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Saltimbocca alla Romana</strong> <em>(veau, jambon de Parme, sauge, vin blanc)</em></p>
+                <span class="badge badge-primary badge-pill">17,80 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Portafoglio di vitello pizzaïola</strong> <em>(veau, mozzarella, tomates séchées, basilic)</em></p>
+                <span class="badge badge-primary badge-pill">19,80 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Vitello alla Napoletana con linguine</strong> <em>(sauté de veau à la tomate, courgettes, curry, persil, ail, haricots verts, olives noires, linguine)</em></p>
+                <span class="badge badge-primary badge-pill">19,80 €</span></li>
+                
+                
+                
+               
+                </ul>
+                
+                <h3>Viande de boeuf</h3>
+                <ul class="list-group">
+                
+                
+               
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Entrecôte nature ‘irlandaise’ 300 g</strong></p>
+                <span class="badge badge-primary badge-pill">22,00 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Entrecôte sauce au choix&nbsp;: poivre crème, gorgonzola, estragon, …</strong></p>
+                <span class="badge badge-primary badge-pill">25,00 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Petite salade italienne&nbsp; &nbsp;&nbsp;</strong></p>
+                <span class="badge badge-primary badge-pill">5,50€</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Légumes chaud selon saison</strong></p>
+                    <span class="badge badge-primary badge-pill">7,50€</span></li>
+                
+                
+                
+                
+                </ul>
+                
+                <h3>Pizza</h3>
+                <ul class="list-group">
+                
+                
+               
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Margherita</strong> <em>(tomates, mozzarella, épices)</em></p>
+                <span class="badge badge-primary badge-pill">9,80 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Pizza Prosciutto</strong> <em>(tomates, mozzarella, jambon)</em></p>
+                <span class="badge badge-primary badge-pill">11,20 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Pizza Pazza</strong> <em>(tomates, mozzarella, oignons, salami piquant)</em></p>
+                <span class="badge badge-primary badge-pill">12,00 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Pizza Napoli</strong> <em>(tomates, mozzarella, anchois, câpres, épices)</em></p>
+                <span class="badge badge-primary badge-pill">10,80 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Pizza Calzone</strong> <em>(tomates, mozzarella, jambon, artichauts, olives)</em></p>
+                <span class="badge badge-primary badge-pill">13,80 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Pizza Vesuvio</strong> <em>(tomates, mozzarella, salami, câpres, œuf cru)</em></p>
+                <span class="badge badge-primary badge-pill">12,90 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Pizza Regina</strong> <em>(tomates, mozzarella, jambon, champignons, oignons, olives)</em></p>
+                <span class="badge badge-primary badge-pill">13,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Pizza Veneziana</strong> <em>(tomates, thon, oignons, salami, câpres, mozzarella)</em></p>
+                <span class="badge badge-primary badge-pill">14,20 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Pizza Hawaï</strong> <em>(tomates, mozzarella, ananas, pancetta, épices)</em></p>
+                <span class="badge badge-primary badge-pill">12,80 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Pizza aux 4 fromages</strong> <em>(tomates, mozzarella, parmesan, gorgonzola, emmenthal, épices)</em></p>
+                <span class="badge badge-primary badge-pill">13,80 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Pizza Mamma Nina</strong> <em>(tomates, aubergines grillées, mozzarella, anchois, basilic, câpres)</em></p>
+                <span class="badge badge-primary badge-pill">14,20 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Pizza Siciliana</strong> <em>(tomates, mozzarella, poivrons, chorizo, olives, oeufs, épices)</em></p>
+                <span class="badge badge-primary badge-pill">14,30 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Pizza Romana</strong> <em>(tomates, mozzarella, aubergines, courgettes, oignons, parmesan, épices)</em></p>
+                <span class="badge badge-primary badge-pill">13,60 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Pizza Mercato</strong> <em>(tomates, mozzarella, courgettes, oignons, poivrons, aubergines, ail, tomates fraîches)</em></p>
+                <span class="badge badge-primary badge-pill">15,40 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Pizza Capricciosa</strong> <em>(tomates, mozzarella, champignons, jambon, artichauts, olives, oignons)</em></p>
+                <span class="badge badge-primary badge-pill">13,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Pizza Arlechino</strong> <em>(tomates, mozzarella, olives, artichauts, jambon, œuf, poivrons, oignons, câpres)</em></p>
+                <span class="badge badge-primary badge-pill">14,80 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Pizza 4 légumes</strong> <em>(tomates, mozzarella, épinards, champignons, brocoli, aubergines, épices)</em></p>
+                <span class="badge badge-primary badge-pill">14,90 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Pizza Montagnara</strong> <em>(tomates, mozzarella, champignons, aubergines, courgettes, ail, coriandre, thon, olives, câpres)</em></p>
+                <span class="badge badge-primary badge-pill">16,20 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Pizza 4 stagioni</strong> <em>(tomates, mozzarella, cœurs d’artichauts, champignons, brocoli, olives, câpres, anchois)</em></p>
+                <span class="badge badge-primary badge-pill">14,80 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Pizza Baci</strong> <em>(tomates, mozzarella di Buffala, prosciutto di Parma, huile d’olives, tomates cerises, roquette, épices)</em></p>
+                <span class="badge badge-primary badge-pill">16,80 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Pizza del Pescator</strong> <em>(tomates, crevettes, scampi, palourdes, moules, calmars, ail)</em></p>
+                <span class="badge badge-primary badge-pill">17,00 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong><em>Supplément pour chaque ingrédient</em></p></strong>
+                <span class="badge badge-primary badge-pill">1,00 €</span></li>
+                
+                
+                
+                
+                </ul>
+                
+                <h3>Cocktails</h3>
+                <ul class="list-group">
+                
+                
+               
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Maison</strong> <em>(Passoa, Cointreau, Spumante)</em></p>
+                <span class="badge badge-primary badge-pill">8,00 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Mojito maison&nbsp;</strong></p>
+                <span class="badge badge-primary badge-pill">8,00 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Spritz&nbsp;</strong></p>
+                <span class="badge badge-primary badge-pill">8,00€&nbsp;</span></li>
+                
+                
+                
+                
+                </ul>
+                
+                <h3>Apéritifs</h3>
+                <ul class="list-group">
+                
+                
+               
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Spumante</strong></p>
+                <span class="badge badge-primary badge-pill">6,00 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Kir&nbsp;</strong><em>(crème de cassis, Vin blanc)</em></p>
+                <span class="badge badge-primary badge-pill">6,00 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Kir royal&nbsp;</strong> <em>(crème de cassis, Spumante)</em></p>
+                    <span class="badge badge-primary badge-pill">7,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Martini blanc ou rouge</strong></p>
+                <span class="badge badge-primary badge-pill">4,80 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Pineau des Charentes</strong></p>
+                <span class="badge badge-primary badge-pill">4,80 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Porto</strong></p>
+                <span class="badge badge-primary badge-pill">4,80 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Gancia</strong></p>
+                <span class="badge badge-primary badge-pill">4,80 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Cynar</strong></p>
+                <span class="badge badge-primary badge-pill">6,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Ricard</strong></p>
+                <span class="badge badge-primary badge-pill">4,80 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Picon</strong> <em>(vin blanc)</em></p>
+                <span class="badge badge-primary badge-pill">7,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Campari</strong> <em>(orange ou soda)</em></p>
+                <span class="badge badge-primary badge-pill">7,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Safari</strong> <em>(orange ou jus d’ananas)</em></p>
+                <span class="badge badge-primary badge-pill">7,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Pisang</strong> <em>(orange ou jus d’ananas)</em></p>
+                <span class="badge badge-primary badge-pill">7,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Passoa</strong> <em>(orange ou jus d’ananas)</em></p>
+                <span class="badge badge-primary badge-pill">7,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Batida</strong> <em>(orange ou jus d’ananas)</em></p>
+                <span class="badge badge-primary badge-pill">7,50 €</span></li>
+                
+                
+                
+                
+                </ul>
+                
+                <h3>Alcools</h3>
+                <ul class="list-group">
+                
+                
+               
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>J&amp;B</strong> <em>(avec Coca)</em></p>
+                <span class="badge badge-primary badge-pill">7,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Johnny Walker</strong> <em>(avec Coca)</em></p>
+                <span class="badge badge-primary badge-pill">7,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Gin Gordon’s</strong> <em>(avec Tonic ou orange)</em></p>
+                <span class="badge badge-primary badge-pill">7,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Bacardi</strong> <em>(avec Coca ou orange)</em></p>
+                <span class="badge badge-primary badge-pill">7,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Tequila</strong> <em>(Tonic ou orange)</em></p>
+                <span class="badge badge-primary badge-pill">7,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Vodka</strong> <em>(orange, ananas)</em></p>
+                <span class="badge badge-primary badge-pill">7,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Cognac</strong></p>
+                <span class="badge badge-primary badge-pill">8,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Calvados&nbsp;</strong></p>
+                <span class="badge badge-primary badge-pill">8,00 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Amaretto&nbsp;</strong></p>
+                <span class="badge badge-primary badge-pill">7,00 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Sambucca</strong></p>
+                <span class="badge badge-primary badge-pill">7,00 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Grappa</strong></p>
+                <span class="badge badge-primary badge-pill">7,00 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Jack Daniel’s</strong></p>
+                <span class="badge badge-primary badge-pill">8,00 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Chivas Regal</strong> <em>(12 ans)</em></p>
+                <span class="badge badge-primary badge-pill">8,00 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Limoncello</strong></p>
+                <span class="badge badge-primary badge-pill">6,00 €</span></li>
+                
+                
+                
+                
+                </ul>
+                
+                <h3>Bières spéciales en bouteille</h3>
+                <ul class="list-group">
+                
+                
+               
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Jupiler</strong></p>
+                <span class="badge badge-primary badge-pill">2,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Blanche</strong></p>
+                <span class="badge badge-primary badge-pill">3,00 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Carlsberg</strong></p>
+                <span class="badge badge-primary badge-pill">3,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Chimay bleue</strong></p>
+                <span class="badge badge-primary badge-pill">4,00 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Duvel</strong></p>
+                <span class="badge badge-primary badge-pill">4,00 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Triple Leffe</strong></p>
+                <span class="badge badge-primary badge-pill">4,00 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Triple Westmalle 33 cl</strong></p>
+                <span class="badge badge-primary badge-pill">4,00 €</span></li>
+                
+                
+                
+                
+                </ul>
+                
+                <h3>Boissons fraîches</h3>
+                <ul class="list-group">
+                
+                
+               
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Chaudfontaine ¼ l</strong></p>
+                <span class="badge badge-primary badge-pill">2,00 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Chaudfontaine ½ l</strong></p>
+                <span class="badge badge-primary badge-pill">4,00 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>San Pellegrino ¼ l</strong></p>
+                <span class="badge badge-primary badge-pill">2,00 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>San Pellegrino ½ l</strong></p>
+                <span class="badge badge-primary badge-pill">4,00 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>San Pellegrino 1 l</strong></p>
+                <span class="badge badge-primary badge-pill">8,00 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Coca-Cola</strong></p>
+                <span class="badge badge-primary badge-pill">2,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Gini</strong></p>
+                <span class="badge badge-primary badge-pill">2,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Ice Tea</strong></p>
+                <span class="badge badge-primary badge-pill">2,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Fanta</strong></p>
+                <span class="badge badge-primary badge-pill">2,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Schweppes Tonic</strong></p>
+                <span class="badge badge-primary badge-pill">2,50 €</span></li>
+                
+                
+                
+                
+                </ul>
+                
+                <h3>Jus Looza</h3>
+                <ul class="list-group">
+                
+                
+               
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Orange – Ananas – Tomate</strong></p>
+                <span class="badge badge-primary badge-pill">2,80 €</span></li>
+                
+                
+                
+                
+                </ul>
+                
+                <h3>Boissons chaudes</h3>
+                <ul class="list-group">
+                <li>
+                
+               
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Café</strong></p>
+                <span class="badge badge-primary badge-pill">2,70 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Expresso</strong></p>
+                <span class="badge badge-primary badge-pill">2,70 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Décaféiné</strong></p>
+                <span class="badge badge-primary badge-pill">2,70 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Cappuccino</strong></p>
+                <span class="badge badge-primary badge-pill">3,20 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Cappuccino italiano </strong><em>( mousse de lait )</em></p>
+                <span class="badge badge-primary badge-pill">3,20€</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Irish Coffee</strong> <em>(Whisky)</em></p>
+                <span class="badge badge-primary badge-pill">8,50 €</span></li>
+                
+                
+                
+                
+                </ul>
+                
+                <h3>Thés naturels – fleurs et fruits –</h3>
+                <ul class="list-group">
+                
+                
+               
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Darjeeling Vintage Himalaya</strong> <em>(nature)</em></p>
+                <span class="badge badge-primary badge-pill">3,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Verveine</strong></p>
+                <span class="badge badge-primary badge-pill">3,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Thé à la menthe fraîche</strong></p>
+                <span class="badge badge-primary badge-pill">3,50 €</span></li>
+                
+               
+                <li class="list-group-item d-flex justify-content-between align-items-center"><p><strong>Jasmin Himalaya</strong></p>
+                <span class="badge badge-primary badge-pill">3,50 €</span></li>
+                
+                
+                
+                
+                </ul>
+            
+                <p>Pour toute demande d’informations complémentaires ou pour toute réservation, contactez-nous par téléphone au <span class="titel3">010 45 02 66</span> ou <a href="mailto:info@pastafollies.be">par email</h3></p>
+                <p>Tous nos plats sont à emporter. Vous bénéficierez d'une réduction de 10%</p>
+                
+        </article>
+    </main>
+</body>
+</html>
