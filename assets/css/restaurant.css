@@ -1,0 +1,10 @@
+body {
+  background-image: -webkit-repeating-radial-gradient(#444444, white);
+  background-image: -o-repeating-radial-gradient(#444444, white);
+  background-image: repeating-radial-gradient(#444444, white);
+  background-repeat: repeat-y;
+}
+
+.dropdown-menu {
+  text-align: center;
+}

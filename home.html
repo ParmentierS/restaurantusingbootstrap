@@ -16,13 +16,26 @@
     <title>Bootstrap Exercices</title>
 </head>
 <body>
-    <nav class="row">
-        <ul class="row">
-            <li><a href="home.html">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="contactform.html">Contact</a></li>
-            <li><a href="restaurants.html"></a>Restaurants</li>
+    <nav class="d-md-block d-sm-none d-none">
+        <ul class="row list-inline">
+            <li class="offset-1 col-2"><a href="home.html">Home</a></li>
+            <li class="col-2"><a href="menu.html">Menu</a></li>
+            <li class="col-2"><a href="gallery.html">Gallery</a></li>
+            <li class="col-2"><a href="contactform.html">Contact</a></li>
+            <li class="col-2"><a href="restaurants.html">Restaurants</a></li>
+        </ul>
+    </nav>
+    <nav class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="Website Sections" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Website Sections
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu"  aria-labelledby="Website Sections">
+            <li class="dropdown-item"><a href="home.html">Home</a></li>
+            <li class="dropdown-item"><a href="menu.html">Menu</a></li>
+            <li class="dropdown-item"><a href="gallery.html">Gallery</a></li>
+            <li class="dropdown-item"><a href="contactform.html">Contact</a></li>
+            <li class="dropdown-item"><a href="restaurants.html">Restaurants</a></li>
         </ul>
     </nav>
 </body>
