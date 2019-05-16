@@ -38,25 +38,72 @@
             <li class="dropdown-item"><a href="restaurants.html">Restaurants</a></li>
         </ul>
     </nav>
-    <header class="jumbotron text-center">
-
-        <!-- Title -->
-        <h2 class="h2 pb-2"><strong>Pates en folie</strong></h2>
-      
-        <!--Carousel slideshow-->
-        <section class="carousel slide" data-ride="carousel">
-            <section class="carousel-inner">
-              <section class="carousel-item active">
-                  <img src="assets/img/jumbotron-image.jpg" class="d-block w-100" alt="superbe image du restaurant">
-              </section>
-              <section class="carousel-item">
-                <img src="assets/img/jumbotron-image-2.jpg" class="d-block w-100" alt="superbe image du restaurant">
-              </section>
-              <section class="carousel-item">
-                <img src="assets/img/jumbotron-image.jpg" class="d-block w-100" alt="superbe image du restaurant">
-              </section>
+    <main class="jumbotron text-center">
+        <form> 
+            <section class="form-row">
+                <section class="form-group col-12 offset-md-3 col-md-2">
+                <label for="inputName4">Nom</label>
+                <input type="text" class="form-control" id="inputName4" placeholder="Nom">
+                </section>
+                <section class="form-group col-12 col-md-2">
+                <label for="inputName4">Prénom</label>
+                <input type="password" class="form-control" id="inputName4" placeholder="Prénom">
+                </section>
+                <section class="form-group col-12 col-md-2">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">  
+                </section>
             </section>
-        </section>
-    </header>
+            <section class="form-row">
+                <section class="form-group col-12 offset-md-3 col-md-2">
+                    <label for="inputAddress">Adresse</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Rue Machin, 999">
+                </section>
+                <section class="form-group col-12 col-md-2">
+                <label for="inputCity">Ville</label>
+                <input type="text" class="form-control" id="inputCity" placeholder="Votre ville">
+                </section>
+                <section class="form-group col-12 col-md-2">
+                    <label for="inputState">Pays</label>
+                    <select id="inputState" class="form-control">
+                        <option selected>-----</option>
+                        <option>Belgique</option>
+                        <option>France</option>
+                        <option>Espagne</option>
+                        <option>Chili</option>
+                        <option>Pérou</option>
+                        <option>Autre</option>
+                    </select>
+                </section>
+            </section>
+            <section class="form-group col-12 offset-md-4 col-md-4">
+                <label for="inputState">Objet du message</label>
+                <select id="inputState" class="form-control">
+                    <option selected>--Message Robot--</option>
+                    <option>Partenariat publicitaire</option>
+                    <option>Plainte</option>
+                    <option>Compliment</option>
+                    <option>Publicité pour acheter du matériel</option>
+                    <option>Information utile</option>
+                    <option>Autre</option>
+                </select>
+            </section>
+            <div class="form-group col-12 offset-md-4 col-md-4">
+                <label for="comment">Message :</label>
+                <textarea class="form-control" rows="6" id="comment"></textarea>
+            </div> 
+            <section class="form-group">
+                <section class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                    J'ai lu votre vie
+                </label>
+                </section>
+            </section>
+            <a href="#" class="btn btn-success btn-lg">
+                    <span class="glyphicon glyphicon-envelope"></span> Envoyer 
+             </a>
+        </form>
+    </main>
 </body>
 </html>

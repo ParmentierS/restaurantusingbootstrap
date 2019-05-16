@@ -31,11 +31,10 @@
             <li class="col-2"><a href="restaurants.html">Restaurants</a></li>
         </ul>
     </nav>
-    <nav class="dropdown d-md-none d-sd-block d-block">
-        <button class="btn btn-default dropdown-toggle" type="button" id="Website Sections" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    <nav class="nav-item dropdown d-md-none d-sd-flex d-flex deroule">
+        <a class="nav-link dropdown-toggle dropdown-toggle" data-toggle="dropdown" href="#">
             Website Sections
-            <span class="caret"></span>
-        </button>
+        </a>
         <ul class="dropdown-menu"  aria-labelledby="Website Sections">
             <li class="dropdown-item"><a href="home.html">Home</a></li>
             <li class="dropdown-item"><a href="menu.html">Menu</a></li>
@@ -43,6 +42,14 @@
             <li class="dropdown-item"><a href="contactform.html">Contact</a></li>
             <li class="dropdown-item"><a href="restaurants.html">Restaurants</a></li>
         </ul>
+        <nav class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Dropdown</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+        </nav>
     </nav>
     <header class="jumbotron text-center">
 
@@ -53,13 +60,13 @@
         <section class="carousel slide" data-ride="carousel">
             <section class="carousel-inner">
               <section class="carousel-item active">
-                  <img src="assets/img/jumbotron-image.jpg" class="d-block w-100" alt="superbe image du restaurant">
+                  <img src="assets/img/jumbotron-image.jpg" class="d-flex w-100" alt="superbe image du restaurant">
               </section>
               <section class="carousel-item">
-                <img src="assets/img/jumbotron-image-2.jpg" class="d-block w-100" alt="superbe image du restaurant">
+                <img src="assets/img/jumbotron-image-2.jpg" class="d-flex w-100" alt="superbe image du restaurant">
               </section>
               <section class="carousel-item">
-                <img src="assets/img/jumbotron-image.jpg" class="d-block w-100" alt="superbe image du restaurant">
+                <img src="assets/img/image-1.jpg" class="d-flex w-100" alt="superbe image du restaurant">
               </section>
             </section>
         </section>

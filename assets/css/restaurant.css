@@ -1,10 +1,37 @@
 body {
-  background-image: -webkit-repeating-radial-gradient(#444444, white);
-  background-image: -o-repeating-radial-gradient(#444444, white);
   background-image: repeating-radial-gradient(#444444, white);
-  background-repeat: repeat-y;
-}
+  background-repeat: repeat-y; }
 
 .dropdown-menu {
-  text-align: center;
-}
+  text-align: center; }
+
+iframe.iframe-large {
+  display: none; }
+  @media (min-width: 1024px) {
+    iframe.iframe-large {
+      display: block; } }
+iframe.iframe-medium {
+  display: none; }
+  @media (min-width: 420px) and (max-width: 767px) {
+    iframe.iframe-medium {
+      display: block; } }
+iframe.iframe-small {
+  display: none; }
+  @media (min-width: 420px) {
+    iframe.iframe-small {
+      display: block; } }
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center; }
+
+h3 {
+  text-align: center; }
+
+nav.deroule {
+  display: flex;
+  justify-content: center; }
+
+/*# sourceMappingURL=restaurant.css.map */
