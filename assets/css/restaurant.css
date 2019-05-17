@@ -5,20 +5,75 @@ body {
 .dropdown-menu {
   text-align: center; }
 
-iframe.iframe-large {
+iframe.iframe-1600 {
   display: none; }
-  @media (min-width: 1024px) {
-    iframe.iframe-large {
+  @media (min-width: 1616px) {
+    iframe.iframe-1600 {
       display: block; } }
-iframe.iframe-medium {
+iframe.iframe-1400 {
   display: none; }
-  @media (min-width: 420px) and (max-width: 767px) {
-    iframe.iframe-medium {
+  @media (min-width: 1394px) and (max-width: 1615px) {
+    iframe.iframe-1400 {
       display: block; } }
-iframe.iframe-small {
+iframe.iframe-1200 {
   display: none; }
-  @media (min-width: 420px) {
-    iframe.iframe-small {
+  @media (min-width: 1200px) and (max-width: 1393px) {
+    iframe.iframe-1200 {
+      display: block; } }
+iframe.iframe-1100 {
+  display: none; }
+  @media (min-width: 1110px) and (max-width: 1199px) {
+    iframe.iframe-1100 {
+      display: block; } }
+iframe.iframe-1000 {
+  display: none; }
+  @media (min-width: 1010px) and (max-width: 1109px) {
+    iframe.iframe-1000 {
+      display: block; } }
+iframe.iframe-900 {
+  display: none; }
+  @media (min-width: 910px) and (max-width: 1009px) {
+    iframe.iframe-900 {
+      display: block; } }
+iframe.iframe-800 {
+  display: none; }
+  @media (min-width: 810px) and (max-width: 909px) {
+    iframe.iframe-800 {
+      display: block; } }
+iframe.iframe-700 {
+  display: none; }
+  @media (min-width: 710px) and (max-width: 809px) {
+    iframe.iframe-700 {
+      display: block; } }
+iframe.iframe-600 {
+  display: none; }
+  @media (min-width: 610px) and (max-width: 709px) {
+    iframe.iframe-600 {
+      display: block; } }
+iframe.iframe-500 {
+  display: none; }
+  @media (min-width: 510px) and (max-width: 609px) {
+    iframe.iframe-500 {
+      display: block; } }
+iframe.iframe-400 {
+  display: none; }
+  @media (min-width: 410px) and (max-width: 509px) {
+    iframe.iframe-400 {
+      display: block; } }
+iframe.iframe-300 {
+  display: none; }
+  @media (min-width: 310px) and (max-width: 409px) {
+    iframe.iframe-300 {
+      display: block; } }
+iframe.iframe-200 {
+  display: none; }
+  @media (min-width: 210px) and (max-width: 309px) {
+    iframe.iframe-200 {
+      display: block; } }
+iframe.iframe-100 {
+  display: none; }
+  @media (min-width: 110px) and (max-width: 209px) {
+    iframe.iframe-100 {
       display: block; } }
 
 .vertical-center {
@@ -32,6 +87,10 @@ h3 {
 
 nav.deroule {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
+  nav.deroule a {
+    font-size: 30px; }
 
 /*# sourceMappingURL=restaurant.css.map */

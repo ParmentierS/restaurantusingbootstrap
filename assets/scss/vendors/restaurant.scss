@@ -1,9 +1,23 @@
 $backgroundcolor:repeating-radial-gradient(#444444, white);
 $backgroundcolorgrille:white;
 $backgroundcolorblocgrille:#d8d8d8;
-$mobile-width:420px;
-$tablet-width: 768px;
+$screen-width-1600:1616px;
+$screen-width-1400:1394px;
+$screen-width-1200:1200px;
+$screen-width-1100:1110px;
 $desktop-width: 1024px;
+$screen-width-1000:1010px;
+$screen-width-900:910px;
+$tablet-width: 768px;
+$screen-width-800:810px;
+$screen-width-700:710px;
+$screen-width-600:610px;
+$screen-width-500:510px;
+$screen-width-400:410px;
+$screen-width-300:310px;
+$screen-width-200:210px;
+$screen-width-100:110px;
+$mobile-width:420px;
 
 @mixin bigmobile 
 {
@@ -69,6 +83,111 @@ $desktop-width: 1024px;
         @content;
     }
 }
+@mixin screen1600
+{
+    @media (min-width: #{$screen-width-1600})
+    {
+        @content;
+    }
+}
+@mixin screen1400
+{
+    @media (min-width: #{$screen-width-1400}) and (max-width: #{$screen-width-1600 - 1px})
+    {
+        @content;
+    }
+}
+@mixin screen1200
+{
+    @media (min-width: #{$screen-width-1200}) and (max-width: #{$screen-width-1400 - 1px})
+    {
+        @content;
+    }
+}
+@mixin screen1100
+{
+    @media (min-width: #{$screen-width-1100}) and (max-width: #{$screen-width-1200 - 1px})
+    {
+        @content;
+    }
+}
+@mixin screen1000
+{
+    @media (min-width: #{$screen-width-1000}) and (max-width: #{$screen-width-1100 - 1px})
+    {
+        @content;
+    }
+}
+@mixin screen900
+{
+    @media (min-width: #{$screen-width-900}) and (max-width: #{$screen-width-1000 - 1px})
+    {
+        @content;
+    }
+}
+@mixin screen800
+{
+    @media (min-width: #{$screen-width-800}) and (max-width: #{$screen-width-900 - 1px})
+    {
+        @content;
+    }
+}
+@mixin screen700
+{
+    @media (min-width: #{$screen-width-700}) and (max-width: #{$screen-width-800 - 1px})
+    {
+        @content;
+    }
+}
+@mixin screen600
+{
+    @media (min-width: #{$screen-width-600}) and (max-width: #{$screen-width-700 - 1px})
+    {
+        @content;
+    }
+}
+@mixin screen500
+{
+    @media (min-width: #{$screen-width-500}) and (max-width: #{$screen-width-600 - 1px})
+    {
+        @content;
+    }
+}
+@mixin screen400
+{
+    @media (min-width: #{$screen-width-400}) and (max-width: #{$screen-width-500 - 1px})
+    {
+        @content;
+    }
+}
+@mixin screen300
+{
+    @media (min-width: #{$screen-width-300}) and (max-width: #{$screen-width-400 - 1px})
+    {
+        @content;
+    }
+}
+@mixin screen200
+{
+    @media (min-width: #{$screen-width-200}) and (max-width: #{$screen-width-300 - 1px})
+    {
+        @content;
+    }
+}
+@mixin screen100
+{
+    @media (min-width: #{$screen-width-100}) and (max-width: #{$screen-width-200 - 1px})
+    {
+        @content;
+    }
+}
+@mixin screentoosmalltosee
+{
+    @media (max-width: #{$screen-width-100- 1px})
+    {
+        @content;
+    }
+}
 
 body 
 { 
@@ -79,26 +198,119 @@ body
     text-align: center;
    
 }
-iframe{
-   &.iframe-large{
+iframe
+{
+    &.iframe-1600
+    {
        display:none;
-        @include largescreen{
+        @include screen1600
+        {
             display:block;
-        }
-        
+        } 
     }
-    &.iframe-medium{
-        display:none;
-        @include mediumscreen{
+    &.iframe-1400
+    {
+       display:none;
+        @include screen1400
+        {
             display:block;
-        }
+        } 
     }
-    &.iframe-small{
-        display:none;
-        @include notsmallscreen{
+    &.iframe-1200
+    {
+       display:none;
+        @include screen1200
+        {
             display:block;
-        }
-        
+        } 
+    }
+    &.iframe-1100
+    {
+       display:none;
+        @include screen1100
+        {
+            display:block;
+        } 
+    }
+    &.iframe-1000
+    {
+       display:none;
+        @include screen1000
+        {
+            display:block;
+        } 
+    }
+    &.iframe-900
+    {
+       display:none;
+        @include screen900
+        {
+            display:block;
+        } 
+    }
+    &.iframe-800
+    {
+       display:none;
+        @include screen800
+        {
+            display:block;
+        } 
+    }
+    &.iframe-700
+    {
+       display:none;
+        @include screen700
+        {
+            display:block;
+        } 
+    }
+    &.iframe-600
+    {
+       display:none;
+        @include screen600
+        {
+            display:block;
+        } 
+    }
+    &.iframe-500
+    {
+       display:none;
+        @include screen500
+        {
+            display:block;
+        } 
+    }
+    &.iframe-400
+    {
+       display:none;
+        @include screen400
+        {
+            display:block;
+        } 
+    }
+    &.iframe-300
+    {
+       display:none;
+        @include screen300
+        {
+            display:block;
+        } 
+    }
+    &.iframe-200
+    {
+       display:none;
+        @include screen200
+        {
+            display:block;
+        } 
+    }
+    &.iframe-100
+    {
+       display:none;
+        @include screen100
+        {
+            display:block;
+        } 
     }
 }
 .vertical-center{
@@ -113,4 +325,10 @@ h3{
 nav.deroule{
     display: flex;
     justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+    a{
+        font-size:30px;
+    }
 }
