@@ -37,22 +37,27 @@ I had to follow these directives when creating the pages :
 # Short technical description of the 5 pages
 
 > https://parmentiers.github.io/restaurantusingbootstrap/home.html
+
 I used a carrousel engine inside a jumbotron container to make an image slider on the head of the page.
 After that I did 3 panels to present the franchise and some news concerning the restaurant.
 
 > https://parmentiers.github.io/restaurantusingbootstrap/menu.html
+
 I used a group list with badges for the prices to do the menu.
 
 > https://parmentiers.github.io/restaurantusingbootstrap/gallery.html#page1
+
 I had to use ids/anchors and the display property to make the pagination of the gallery on one page.
 
 > https://parmentiers.github.io/restaurantusingbootstrap/contactform.html
+
 I used bootstrap syntax to make a form to send a message.
 There is a dropdown menu with options.
 The form doesn't work since php is not used yet.
 There is a font-awesome glyphicon on the send button.
 
 > https://parmentiers.github.io/restaurantusingbootstrap/restaurants.html
+
 There are contact informations for the 3 restaurants of the franchise.
 Each restaurant has a google map location displayed on a iframe.
 The page is responsive since the iframe is switched  with another every time we resize the window of 100 pixels. 
@@ -77,23 +82,22 @@ I had to use an external css file in these situations.
 
 1. The page restaurants.html takes too much time to load.
 It's especially annoying on mobile phones.
+
 Possible causes : 
 - Google Maps website slow loading 
 - Bootstrap css taking too much space.
 - Many iframe blocks undisplayed on one page.
 
-2. Find a graphical designer to give me tips to stop making poor choices resulting in an especially ugly design.
+2. Find a way to resize iframe without switching between a lot of iframe blocks every 100 pixels.
 
-3. Find a way to resize iframe without switching between a lot of iframe blocks every 100 pixels.
-
-4. Fix the alignment of options in the navigation menu on small screens.
-
-5. Improve the way images are displayed on the gallery
+3. Fix the alignment of options in the navigation menu on small screens.
 
 # Possible Upgrades
 
 - To use a better and more general mixin to automate the process of creating media queries based on specific screen sizes
 - To use PHP and a database to receive the form on the contact page.
+- Find a graphical designer to give me tips to stop making poor choices resulting in an especially ugly design.
+- Improve the way images are displayed on the gallery
 - More comments in scss and html files
 - To have a better structure in the scss file (delete unused variables and mixins)
 - Translate that README in French
@@ -101,6 +105,7 @@ Possible causes :
 # Copyright 
 
 Sébastien Parmentier for the structure
+
 Pasta follies, Louvain-la-Neuve for the content
 
 
