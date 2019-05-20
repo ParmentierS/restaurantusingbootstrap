@@ -1,7 +1,10 @@
-> https://github.com/ParmentierS/restaurantusingbootstrap
-> https://parmentiers.github.io/restaurantusingbootstrap/home.html
-
 # Implementation of a restaurant website with Bootstrap 4
+
+# Links for the projects
+
+> https://github.com/ParmentierS/restaurantusingbootstrap
+
+> https://parmentiers.github.io/restaurantusingbootstrap/home.html
 
 # Presentation of the project
 
