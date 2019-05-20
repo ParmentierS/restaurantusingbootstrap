@@ -19,22 +19,22 @@ I added a little bit of fantasy here and there since it was for an imaginary fra
 
 The website is entirely in French for now since the directives were given in French.
 
-#Date of the Project
+# Date of the Project
 
 From 14th of May 2019 to 20th of May 2019
 
-#Objectives 
+# Objectives 
 
 - Mastering Bootstrap 4 in a concrete situation
 - Planning the structure of each page on paper before writing the HTML/CSS
 - Follow precise directives
 
-#Directives
+# Directives
 
 I had to follow these directives when creating the pages :
  ![Directives of a becode project in french](assets/img/consignes.png)
 
-#Short technical description of the 5 pages
+# Short technical description of the 5 pages
 
 > https://parmentiers.github.io/restaurantusingbootstrap/home.html
 I used a carrousel engine inside a jumbotron container to make an image slider on the head of the page.
@@ -58,7 +58,7 @@ Each restaurant has a google map location displayed on a iframe.
 The page is responsive since the iframe is switched  with another every time we resize the window of 100 pixels. 
 
 
-#Difficulties encountered during the project
+# Difficulties encountered during the project
 
 1. Firstly I included three bootstrap javascript files twice. 
 It caused javascript to not work at all on every page.
@@ -73,7 +73,7 @@ The result is not pretty but it works.
 4. Difficulties in making bootstrap do exactly what I want 
 I had to use an external css file in these situations.
 
-#Bugs to fix in the future
+# Bugs to fix in the future
 
 1. The page restaurants.html takes too much time to load.
 It's especially annoying on mobile phones.
@@ -90,7 +90,7 @@ Possible causes :
 
 5. Improve the way images are displayed on the gallery
 
-#Possible Upgrade
+# Possible Upgrades
 
 - To use a better and more general mixin to automate the process of creating media queries based on specific screen sizes
 - To use PHP and a database to receive the form on the contact page.
@@ -98,7 +98,7 @@ Possible causes :
 - To have a better structure in the scss file (delete unused variables and mixins)
 - Translate that README in French
 
-#Copyright 
+# Copyright 
 
 Sébastien Parmentier for the structure
 Pasta follies, Louvain-la-Neuve for the content
