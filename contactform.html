@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -18,14 +19,14 @@
     <![endif]-->
     <title>Restaurant Pates en folie</title>
 </head>
-<body>
-   <nav class="d-md-block d-sm-none d-none">
-        <ul class="row list-inline">
-            <li class="offset-1 col-2"><a href="home.html">Home</a></li>
-            <li class="col-2"><a href="menu.html">Menu</a></li>
-            <li class="col-2"><a href="gallery.html">Gallery</a></li>
-            <li class="col-2"><a href="contactform.html">Contact</a></li>
-            <li class="col-2"><a href="restaurants.html">Restaurants</a></li>
+<body class="container-fluid">
+    <nav class="d-md-block d-sm-none d-none">
+        <ul class="d-flex justify-content-around list-unstyled">
+            <li class=""><a href="home.html">Home</a></li>
+            <li class=""><a href="menu.html">Menu</a></li>
+            <li class=""><a href="gallery.html#page1">Gallery</a></li>
+            <li class=""><a href="contactform.html">Contact</a></li>
+            <li class=""><a href="restaurants.html">Restaurants</a></li>
         </ul>
     </nav>
     <nav class="nav-item dropdown d-md-none d-sd-flex d-flex deroule">
@@ -35,7 +36,7 @@
         <ul class="dropdown-menu"  aria-labelledby="Website Sections">
             <li class="dropdown-item"><a href="home.html">Home</a></li>
             <li class="dropdown-item"><a href="menu.html">Menu</a></li>
-            <li class="dropdown-item"><a href="gallery.html">Gallery</a></li>
+            <li class="dropdown-item"><a href="gallery.html#page1">Gallery</a></li>
             <li class="dropdown-item"><a href="contactform.html">Contact</a></li>
             <li class="dropdown-item"><a href="restaurants.html">Restaurants</a></li>
         </ul>
@@ -44,12 +45,12 @@
         <form> 
             <section class="form-row">
                 <section class="form-group col-12 offset-md-3 col-md-2">
-                <label for="inputName4">Nom</label>
-                <input type="text" class="form-control" id="inputName4" placeholder="Nom">
+                    <label for="inputName4">Nom</label>
+                    <input type="text" class="form-control" id="inputName4" placeholder="Nom">
                 </section>
                 <section class="form-group col-12 col-md-2">
-                <label for="inputName4">Prénom</label>
-                <input type="password" class="form-control" id="inputName4" placeholder="Prénom">
+                    <label for="inputName4">Prénom</label>
+                    <input type="password" class="form-control" id="inputName4" placeholder="Prénom">
                 </section>
                 <section class="form-group col-12 col-md-2">
                     <label for="inputEmail4">Email</label>
@@ -62,13 +63,13 @@
                     <input type="text" class="form-control" id="inputAddress" placeholder="Rue Machin, 999">
                 </section>
                 <section class="form-group col-12 col-md-2">
-                <label for="inputCity">Ville</label>
-                <input type="text" class="form-control" id="inputCity" placeholder="Votre ville">
+                    <label for="inputCity">Ville</label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="Votre ville">
                 </section>
                 <section class="form-group col-12 col-md-2">
                     <label for="inputState">Pays</label>
                     <select id="inputState" class="form-control">
-                        <option selected>-----</option>
+                        <option selected>C'est la mer noire</option>
                         <option>Belgique</option>
                         <option>France</option>
                         <option>Espagne</option>
@@ -103,7 +104,7 @@
                 </section>
             </section>
             <a href="#" class="btn btn-success btn-lg">
-                    <span class="glyphicon glyphicon-envelope"></span> Envoyer 
+                <i class="fa fa-envelope-o"> Envoyer </i>
              </a>
         </form>
     </main>

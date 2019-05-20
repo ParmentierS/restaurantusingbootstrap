@@ -1,3 +1,4 @@
+/*should be optimized later*/
 body {
   background-image: repeating-radial-gradient(#444444, white);
   background-repeat: repeat-y; }
@@ -76,21 +77,82 @@ iframe.iframe-100 {
     iframe.iframe-100 {
       display: block; } }
 
-.vertical-center {
+.vertical-high {
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: flex-start; }
+
+header h2 {
+  color: orange;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-shadow: 2px 2px black;
+  font-size: 60px; }
 
 h3 {
   text-align: center; }
 
-nav.deroule {
+article.menu h3, article.menu h2, section.resto h3, section.resto h2 {
+  color: white;
+  font-weight: bolder;
+  text-transform: capitalize;
+  text-shadow: 1px 1px black, -1px -1px black; }
+
+nav {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  background-color: white; }
+  nav a, nav a:visited {
+    font-size: 30px;
+    border-color: goldenrod;
+    border-width: 5px;
+    border-style: groove;
+    color: red;
+    text-transform: uppercase;
+    font-weight: bolder; }
+  nav a:hover {
+    color: green;
+    background-color: goldenrod; }
+  nav.deroule {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; }
+    nav.deroule a {
+      font-size: 30px; }
+
+section#page1, section#page2, section#page3, section#page4 {
+  display: none; }
+section#page1:target, section#page2:target, section#page3:target, section#page4:target {
+  display: block; }
+section.resto {
+  border-color: yellow;
+  border-width: 5px;
+  border-style: double;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  border-top-width: 0px;
+  box-shadow: 1px 1px black, -1px -1px black;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+article.panel {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: white;
+  border: solid 3px blue;
+  border-radius: 5px;
+  box-shadow: 1px 1px black, -1px -1px black; }
+
+.header-home {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center; }
-  nav.deroule a {
-    font-size: 30px; }
+  flex-direction: column;
+  align-items: center; }
+  .header-home img {
+    width: 80%;
+    height: 300px;
+    max-width: 500px;
+    max-height: 500px; }
 
 /*# sourceMappingURL=restaurant.css.map */

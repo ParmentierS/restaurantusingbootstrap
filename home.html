@@ -18,14 +18,14 @@
     <![endif]-->
     <title>Restaurant Pates en folie</title>
 </head>
-<body>
+<body class="container-fluid">
     <nav class="d-md-block d-sm-none d-none">
-        <ul class="row list-inline">
-            <li class="offset-1 col-2"><a href="home.html">Home</a></li>
-            <li class="col-2"><a href="menu.html">Menu</a></li>
-            <li class="col-2"><a href="gallery.html">Gallery</a></li>
-            <li class="col-2"><a href="contactform.html">Contact</a></li>
-            <li class="col-2"><a href="restaurants.html">Restaurants</a></li>
+        <ul class="d-flex justify-content-around list-unstyled">
+            <li class=""><a href="home.html">Home</a></li>
+            <li class=""><a href="menu.html">Menu</a></li>
+            <li class=""><a href="gallery.html#page1">Gallery</a></li>
+            <li class=""><a href="contactform.html">Contact</a></li>
+            <li class=""><a href="restaurants.html">Restaurants</a></li>
         </ul>
     </nav>
     <nav class="nav-item dropdown d-md-none d-sd-flex d-flex deroule">
@@ -35,18 +35,18 @@
         <ul class="dropdown-menu"  aria-labelledby="Website Sections">
             <li class="dropdown-item"><a href="home.html">Home</a></li>
             <li class="dropdown-item"><a href="menu.html">Menu</a></li>
-            <li class="dropdown-item"><a href="gallery.html">Gallery</a></li>
+            <li class="dropdown-item"><a href="gallery.html#page1">Gallery</a></li>
             <li class="dropdown-item"><a href="contactform.html">Contact</a></li>
             <li class="dropdown-item"><a href="restaurants.html">Restaurants</a></li>
         </ul>
     </nav>
-    <header class="jumbotron text-center">
+    <header class="jumbotron text-center header-home">
 
         <!-- Title -->
-        <h2 class="h2 pb-2"><strong>Pates en folie</strong></h2>
+        <h2 class="h2 pb-2">Pates en folie</h2>
       
         <!--Carousel slideshow-->
-        <section class="carousel slide" data-ride="carousel">
+        <section id="centralCarousel" class="carousel slide" data-ride="carousel">
             <section class="carousel-inner">
               <section class="carousel-item active">
                   <img src="assets/img/jumbotron-image.jpg" class="d-flex w-100" alt="superbe image du restaurant">
@@ -69,12 +69,12 @@
             <p>Nos cuisiniers ont appris leur savoir faire en Italie auprès des plus grands.</p>
             <p>Nous vous accueillons dans nos 3 restaurants à Louvain-la-neuve, Wavre et Bruxelles.</p>
         </article>
-        <article class=" panel panel-default col-12 col-md-6">
+        <article class="panel panel-default col-12 col-md-6">
             <h3 class="h3 pb-3"><strong>Fermeture en aout</strong></h3>
             <p>La succursale de Louvain-la-neuve fermera ses portes du 15 au 30 aout.</p>
             <p>Merci de votre compréhension.</p>
         </article>
-        <article class=" panel panel-default col-12 col-md-6">
+        <article class="panel panel-default col-12 col-md-6">
             <h3 class="h3 pb-3"><strong>Menu d'été</strong></h3>
             <p>A l'occasion de la belle saison, le menu fait peau neuve.</p>
             <p>Venez goûter nos succulentes pates et pizzas aux fleurs de courgettes</p>
