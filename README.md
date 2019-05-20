@@ -4,6 +4,7 @@
 # Implementation of a restaurant website with Bootstrap 4
 
 # Presentation of the project
+
 For this becode project I had to come up with a website for an imaginary restaurant franchise with 5 pages. 
 This project was designed for us to learn using Bootstrap 4 when doing it.
 
@@ -16,18 +17,22 @@ I added a little bit of fantasy here and there since it was for an imaginary fra
 The website is entirely in French for now since the directives were given in French.
 
 #Date of the Project
+
 From 14th of May 2019 to 20th of May 2019
 
 #Objectives 
+
 - Mastering Bootstrap 4 in a concrete situation
 - Planning the structure of each page on paper before writing the HTML/CSS
 - Follow precise directives
 
 #Directives
+
 I had to follow these directives when creating the pages :
  ![Directives of a becode project in french](assets/img/consignes.png)
 
 #Short technical description of the 5 pages
+
 > https://parmentiers.github.io/restaurantusingbootstrap/home.html
 I used a carrousel engine inside a jumbotron container to make an image slider on the head of the page.
 After that I did 3 panels to present the franchise and some news concerning the restaurant.
@@ -51,6 +56,7 @@ The page is responsive since the iframe is switched  with another every time we 
 
 
 #Difficulties encountered during the project
+
 1. Firstly I included three bootstrap javascript files twice. 
 It caused javascript to not work at all on every page.
 
@@ -82,6 +88,7 @@ Possible causes :
 5. Improve the way images are displayed on the gallery
 
 #Possible Upgrade
+
 - To use a better and more general mixin to automate the process of creating media queries based on specific screen sizes
 - To use PHP and a database to receive the form on the contact page.
 - More comments in scss and html files
@@ -89,6 +96,7 @@ Possible causes :
 - Translate that README in French
 
 #Copyright 
+
 Sébastien Parmentier for the structure
 Pasta follies, Louvain-la-Neuve for the content
 
